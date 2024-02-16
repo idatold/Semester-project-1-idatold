@@ -1,0 +1,55 @@
+body {
+  background-color: #ecc6a7;
+  font-family: "Oxanium", "sans-serif";
+}
+
+.header-background {
+  margin: auto;
+  background-image: url("Assets/Indexphotos/indexheader-min.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 40rem;
+  background-color: black;
+  color: #fff;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.csm-logo {
+ max-width: 184px;
+ max-height: 184px;
+ flex-wrap: wrap;
+ 
+}
+
+.logo-wrapper {
+  display: flex;
+  margin: 12.3rem;
+  flex-wrap: wrap;
+
+}
+
+.navbar {
+
+ padding: 2rem;
+ background-color: rgba(252, 149, 32, 0.7);
+ justify-content: center;
+ position: sticky;
+}
+
+.nav-links-wrapper {
+  display: flex;
+
+  
+
+}
+
+.nav-link {
+  padding: 0.5rem;
+  color: #fff;
+  font-family: "oxanium";
+  font-size: 1.5rem;
+  margin: auto;
+}
