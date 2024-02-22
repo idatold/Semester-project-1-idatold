@@ -1,63 +1,69 @@
 body {
-    background-color: #D9D9D9;
-    font-family: "Oxanium", "sans-serif";
-  }
+  background-color: #d9d9d9;
+  font-family: "Oxanium", "sans-serif";
+}
 /*------------------header--------------------*/
 .header-background {
-    background-image: url("Assets/Exhibitions/exhibitionsheader.png");
-  }
+  background-image: url("Assets/Exhibitions/exhibitionsheader.png");
+}
+
+.navbar {
+  background-color: rgba(118, 86, 41, 0.78);
+}
+
+.heading-one {
+  color: #9b886b;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+  color: #9B886B;
+  text-align: center;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 2rem;
+}
+
+.exhibitions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+}
+
+.ecology-evolution-wrapper,
+.biology-cosmology-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
   
-  .navbar {
-    background-color: rgba(118, 86, 41, 0.78);
-  }
+}
 
+.exhib-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.exhib-links {
+  color: #9b886b;
+  font-family: Oxanium;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+}
 
 footer {
-    background-color:  rgba(118, 86, 41, 0.78);
-   
-  }
+  background-color: rgba(118, 86, 41, 0.78);
+}
+
+
