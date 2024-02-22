@@ -11,3 +11,126 @@
     padding: 0px;
     box-sizing: border-box;
   }
+
+  /*---------------------header-------------------------------*/
+
+  .header-background {
+  background-size: cover;
+  background-position: center;
+  min-height: 50rem;
+  background-color: black;
+  color: #fff;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+  
+
+.csm-logo {
+  display: flex;
+  min-width: 184px;
+  min-height: 184px;
+  flex-wrap: wrap;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar {
+  padding: 2rem;
+  justify-content: center;
+  position: relative, sticky;
+  margin-bottom: -10.3rem;
+}
+
+.nav-links-wrapper {
+  display: flex;
+}
+
+.nav-link {
+  padding: 0.5rem;
+  color: #fff;
+  font-family: "oxanium";
+  font-size: 1.5rem;
+  margin: auto;
+}
+
+
+
+/*---------------------footer-------------------------------*/
+
+footer {
+
+  width: auto;
+  padding-top: 4rem;
+  font-family: "Oxanium", "Sans serif";
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  line-height: normal;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 2rem;
+}
+.footer-link {
+  color: #fff;
+}
+
+.links-footer-wrapper-top {
+  display: grid;
+  grid-column-start: 3;
+}
+
+.center {
+  justify-self: center;
+  align-self: center;
+}
+.rocket-icon {
+  display: grid;
+  grid-column-start: 2;
+  
+}
+
+
+.rocket-push {
+  grid-column-start: 2;
+  color: #fff;
+}
+
+.connect-text {
+  text-align: center;
+  font-family: Oxanium;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  align-self: end;
+}
+
+.links-footer-wrapper-bottom {
+display: flex;
+flex-direction: column;
+}
+
+.social-icons-wrapper {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.all-rights-wrapper {
+  grid-column-start: 2;
+  grid-row-start: 4;
+  align-self: end;
+  text-align: left;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  justify-self: center;
+}

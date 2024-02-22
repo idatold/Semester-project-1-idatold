@@ -3,57 +3,21 @@ body {
   font-family: "Oxanium", "sans-serif";
 }
 
+/*------------------header--------------------*/
 .header-background {
   background-image: url("Assets/Indexphotos/indexheader-min.png");
-  background-size: cover;
-  background-position: center;
-  min-height: 50rem;
-  background-color: black;
-  color: #fff;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.csm-logo {
-  display: flex;
-  min-width: 184px;
-  min-height: 184px;
-  flex-wrap: wrap;
-}
-
-.logo-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .navbar {
-  padding: 2rem;
   background-color: rgba(252, 149, 32, 0.7);
-  justify-content: center;
-  position: relative, sticky;
-  margin-bottom: -10.3rem;
 }
 
-.nav-links-wrapper {
-  display: flex;
-}
-
-.nav-link {
-  padding: 0.5rem;
-  color: #fff;
-  font-family: "oxanium";
-  font-size: 1.5rem;
-  margin: auto;
-}
 /*------------------main--------------------*/
 
 .index-page-content {
- display: flex;
- flex-direction: column;
- margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .special-events-banner {
@@ -67,6 +31,7 @@ body {
 
 .special-events-image {
   flex-wrap: wrap;
+  max-width: 100%;
   padding: 1rem;
 }
 
@@ -78,8 +43,7 @@ body {
 
 .special-events-banner-text {
   display: flex;
-  flex-direction: column;>
- 
+  flex-direction: column;
 }
 
 .heading-one {
@@ -117,6 +81,7 @@ body {
 
 .index-image-1 {
   padding-left: 2rem;
+  max-width: 100%;
 }
 
 .index-image-text-wrapper-2 {
@@ -128,7 +93,8 @@ body {
   align-items: center;
 }
 
-.cosmology-link, .evolution-link {
+.cosmology-link,
+.evolution-link {
   display: flex;
   background-size: auto;
   color: #fff;
@@ -137,17 +103,14 @@ body {
   background-color: #f7a448;
   padding: 1rem;
   border-radius: 10px;
- 
-
 }
 
 .index-text-wrapper {
   display: flex;
-  
 }
 
 .index-image-2 {
-  max-width: 1176px;
+  max-width: 100%;
 }
 
 .index-3 {
@@ -156,20 +119,17 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-
-  
 }
 
 .text-3 {
   display: flex;
   max-width: 73.3rem;
   margin-bottom: 2rem;
- 
 }
 
 .index-image-3 {
   margin-bottom: 2rem;
-  align-self: auto;
+  max-width: 100%;
 }
 
 .index-icons {
@@ -181,34 +141,11 @@ body {
   flex-wrap: wrap;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  
 }
+/*----------------------------------------footer-------------------------------*/
 
 footer {
-background-color: #f7a448;
-width: auto;
-padding-top: 4rem;
-font-family: "Oxanium", "Sans serif";
-font-weight: 600;
-font-size: 24px;
-color: #fff;
-line-height: normal;
-text-decoration: underline;
-text-align: center;
-display: grid;
-grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
-grid-template-rows: repeat(4, 1fr);
-grid-column-gap: 5px;
-grid-row-gap: 5px;
-}
-
-.footer-link {
-  color: #fff;
+  background-color: #f7a448;
  
-}
-
-.links-footer-wrapper-top {
-  display: grid;
-  grid-column-start: 3;
 }
 
