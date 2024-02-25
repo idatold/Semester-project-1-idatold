@@ -4,7 +4,7 @@ body {
 }
 /*------------------header--------------------*/
 .header-background {
-  background-image: url("Assets/Exhibitions/exhibitionsheader.png");
+  background-image: url("/Assets/Exhibitions/exhibitionsheader.png");
 }
 
 .navbar {
@@ -12,18 +12,7 @@ body {
 }
 
 .heading-one {
-  color: #9b886b;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin-top: 2.5rem;
-  color: #9B886B;
-  text-align: center;
-  font-family: Oxanium;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  font-size: 2rem;
+  background-color: rgba(118, 86, 41, 0.78);
 }
 
 .exhibitions {
@@ -41,7 +30,6 @@ body {
   flex-direction: row;
   margin: auto;
   flex-wrap: wrap;
-  
 }
 
 .exhib-center {
@@ -55,15 +43,14 @@ body {
 .exhib-links {
   color: #9b886b;
   font-family: Oxanium;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-decoration-line: underline;
+  padding-top: 1rem;
 }
 
 footer {
   background-color: rgba(118, 86, 41, 0.78);
 }
-
-

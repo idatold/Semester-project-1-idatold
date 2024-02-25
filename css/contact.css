@@ -1,0 +1,259 @@
+body {
+  background-color: #f2d1ed;
+  font-family: "Oxanium", "Oswald" "sans-serif";
+}
+
+/*------------------header--------------------*/
+.header-background {
+  background-image: url("/Assets/Contactphotos/contactheader.png");
+}
+
+.navbar {
+  background-color: rgba(192, 87, 168, 0.53);
+}
+
+/*------------------main--------------------*/
+.heading-one {
+  background-color: rgba(192, 87, 168, 0.53);
+}
+
+.contact-info-wrapper {
+  border-radius: 20px;
+  background: #e2a5d0;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  max-width: 1000px;
+  min-height: 1100px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.h2-common {
+  color: #fff;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  padding: 20px;
+}
+
+.p-common {
+  padding: 20px;
+  font-family: Oxanium;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.shop-wrapper {
+  margin-top: 3rem;
+}
+
+.h2-img-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.img-astronaut {
+  padding: 20px;
+  padding-left: 10rem;
+  padding-top: 2rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contact-form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #c057a8;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: #c057a8;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #c057a8;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: #c057a8;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #c057a8;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder,
+textarea::focus:placeholder {
+  color: #c057a8;
+}
+
+input::-ms-placeholder,
+textarea::-ms-placeholder {
+  color: #c057a8;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder,
+textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder,
+textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder,
+textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder,
+textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder,
+textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder,
+textarea:hover:focus::placeholder {
+  color: #c057a8;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder,
+textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+h3 {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  font-family: "oxanium";
+  max-width: 50rem;
+  margin: auto;
+  color: #c057a8;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: "oxanium" sans-serif;
+  font-size: 0.875em;
+  max-width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #c057a8;
+  border: solid 1px #c057a8;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: rgba(192, 87, 168, 0.53);
+  color: #e2dedb;
+}
+
+textarea {
+  max-width: 470px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #c057a8;
+  font-family: "oxanium", sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #c057a8;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: rgba(192, 87, 168, 0.53);
+  color: #e2dedb;
+}
+
+#submit {
+  width: 470px;
+
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+
+  font-family: "oxanium", sans-serif;
+  font-size: 0.875em;
+  color: #c057a8;
+
+  outline: none;
+  cursor: pointer;
+
+  border: solid 1px #c057a8;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+
+.map-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  background-color: rgba(192, 87, 168, 0.53);
+}

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 
 
@@ -59,12 +59,23 @@
   margin: auto;
 }
 
-
-
+/*-----------------------commmon main---------------------*/
+.heading-one {
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Oxanium;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 2rem;
+  padding: 3rem;
+}
 /*---------------------footer-------------------------------*/
 
-footer {
-
+.footer-layout {
   width: auto;
   padding-top: 4rem;
   font-family: "Oxanium", "Sans serif";
@@ -74,7 +85,7 @@ footer {
   line-height: normal;
   text-align: center;
   display: grid;
-  grid-template-columns: 0.5fr repeat(3, 1fr) 0.5fr;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 2rem;
@@ -136,3 +147,6 @@ flex-direction: column;
   line-height: normal;
   justify-self: center;
 }
+
+
+

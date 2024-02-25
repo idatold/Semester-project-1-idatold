@@ -1,0 +1,61 @@
+body {
+    background-color: #ADDB9D;
+    font-family:  "Oswald" "sans-serif";
+    color: #fff;
+  }
+  
+  /*------------------header--------------------*/
+  .header-background {
+    background-image: url("/Assets/explore/exploreheader.png");
+  }
+  
+  .navbar {
+    background-color: rgba(11, 155, 75, 0.79);
+  }
+  
+  /*------------------main--------------------*/
+  
+  .heading-one {
+    background-color: #097B3B;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  footer {
+    background-color: #097B3B;
+  }

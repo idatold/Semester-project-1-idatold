@@ -5,7 +5,7 @@ body {
 
 /*------------------header--------------------*/
 .header-background {
-  background-image: url("Assets/Indexphotos/indexheader-min.png");
+  background-image: url("/Assets/Indexphotos/indexheader-min.png");
 }
 
 .navbar {

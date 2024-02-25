@@ -1,0 +1,81 @@
+body {
+  background-color: #00474e;
+  font-family: "Oxanium", "Oswald" "sans-serif";
+  color: #fff;
+}
+
+/*------------------header--------------------*/
+.header-background {
+  background-image: url("/Assets/contribution/contributionheader.png");
+}
+
+.navbar {
+  background-color: rgba(0, 135, 146, 0.79);
+}
+
+/*------------------main--------------------*/
+
+.heading-one {
+  background-color: rgba(0, 135, 146, 0.74);
+}
+
+.contribution-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 3%;
+  flex-wrap: wrap;
+}
+
+.contribution-wrapper {
+  display: flex;
+  background: #006f7a;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 768px;
+  margin-bottom: 6rem;
+  border-radius: 10px;
+  margin-right: 3rem;
+}
+
+.image-contribution-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.contribution-img {
+  size: 90%;
+  max-width: 389px;
+  max-height: 389px;
+  padding: 20px;
+  margin-bottom: 4em;
+    
+ 
+}
+
+h2 {
+  text-align: left;
+  font-family: Oxanium;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  font-family: "Overpass Mono";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  background-color: #006f7a;
+}
