@@ -1,20 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-  /*---------------------header-------------------------------*/
+/*---------------------header-------------------------------*/
 
-  .header-background {
+.header-background {
   background-size: cover;
   background-position: center;
   min-height: 50rem;
@@ -24,9 +20,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  
 }
-  
 
 .csm-logo {
   display: flex;
@@ -46,7 +40,6 @@
   justify-content: center;
   position: sticky;
   margin-bottom: -10.3rem;
-  
 }
 
 .nav-links-wrapper {
@@ -75,6 +68,67 @@
   font-size: 2rem;
   padding: 3rem;
 }
+
+/*---------------------exhibitions-------------------------------*/
+
+.exhibitions-box {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.exhibitions-h1 {
+  padding-bottom: 1rem;
+}
+.exhibitions-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.exhibitions-text-wrapper {
+  border-radius: 10px;
+  padding: 2rem;
+  max-width: 450px;
+}
+
+.exhibitions-bubble {
+  max-width: 100%;
+  padding: 2rem;
+}
+
+.exhibitions-img {
+  max-width: 1058px;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.exhibitions-p {
+  font-family: "Overpass Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.button-exhibitions {
+  color: #fff;
+  border-radius: 30px;
+  padding: 2rem;
+  text-align: center;
+  font-family: Oxanium;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-bottom: 4rem;
+}
+
 /*---------------------footer-------------------------------*/
 
 .footer-layout {
@@ -108,9 +162,7 @@
 .rocket-icon {
   display: grid;
   grid-column-start: 2;
-  
 }
-
 
 .rocket-push {
   grid-column-start: 2;
@@ -128,11 +180,9 @@
 }
 
 .links-footer-wrapper-bottom {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 .social-icons-wrapper {
   grid-column-start: 3;
@@ -149,6 +199,3 @@ flex-direction: column;
   line-height: normal;
   justify-self: center;
 }
-
-
-

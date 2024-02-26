@@ -1,0 +1,29 @@
+body {
+  background-color: #d9d9d9;
+  font-family: "Oxanium", "sans-serif";
+  color: #fff;
+}
+
+/*------------------header--------------------*/
+.header-background {
+  background-image: url("/Assets/ecology/ecologyheader.png");
+}
+
+.navbar {
+  background-color: rgba(103, 137, 103, 0.78);
+}
+
+/*------------------main--------------------*/
+.exhibitions-text-wrapper {
+    background-color: #678967;
+}
+
+.button-exhibitions {
+    background-color: #678967;
+}
+
+footer {
+  background-color: #678967;
+}
+
+

@@ -1,0 +1,36 @@
+body {
+    background-color: #d9d9d9;
+    font-family: "Oxanium", "sans-serif";
+    color: #fff;
+  }
+  
+  /*------------------header--------------------*/
+  .header-background {
+    background-image: url("/Assets/Airobotics/aiheader.png");
+  }
+  
+  .navbar {
+    background-color:  rgba(116, 148, 167, 0.83);
+    }
+  
+  /*------------------main--------------------*/
+  
+  
+  .exhibitions-text-wrapper {
+    background-color: #99B0C3;
+}
+
+.button-exhibitions {
+    background-color: #99B0C3;
+}
+
+
+
+
+
+
+
+
+  footer {
+    background-color: #99B0C3;
+  }
