@@ -1,0 +1,41 @@
+body {
+  background-color: #8b6e83;
+  font-family: "Oxanium", "sans-serif";
+  color: #fff;
+}
+
+/*------------------header--------------------*/
+.header-background {
+  background-image: url("/Assets/privacyterms/privacytermsheader.png");
+}
+
+.navbar {
+  background-color: rgba(72, 43, 61, 0.74);
+}
+
+/*------------------main--------------------*/
+
+.heading-one {
+  background-color: #3b2232;
+}
+
+.privacy-text {
+  background-color: #472a3f;
+  max-width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+
+h2, p, h3{
+    padding: 1rem;
+}
+
+
+
+
+footer {
+  background-color: #3b2232;
+}
