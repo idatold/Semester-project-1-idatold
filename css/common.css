@@ -102,7 +102,7 @@
 }
 
 .exhibitions-img {
-  max-width: 1058px;
+  max-width: 100%;
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
@@ -126,7 +126,8 @@
   font-weight: 800;
   line-height: normal;
   text-decoration-line: underline;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
 }
 
 /*---------------------footer-------------------------------*/

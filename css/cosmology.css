@@ -1,0 +1,28 @@
+body {
+    background-color: #d9d9d9;
+    font-family: "Oxanium", "sans-serif";
+    color: #fff;
+  }
+  
+  /*------------------header--------------------*/
+  .header-background {
+    background-image: url("/Assets/cosmology/cosmologyheader.png");
+  }
+  
+  .navbar {
+    background-color:  rgba(165, 131, 198, 0.76);
+  }
+  
+  /*------------------main--------------------*/
+  
+  .exhibitions-text-wrapper {
+    background-color: #A583C6;
+  }
+  
+  .button-exhibitions {
+    background-color: #A583C6;
+  }
+  
+  footer {
+    background-color: #A583C6;
+  }

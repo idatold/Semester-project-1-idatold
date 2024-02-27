@@ -1,0 +1,28 @@
+body {
+    background-color: #d9d9d9;
+    font-family: "Oxanium", "sans-serif";
+    color: #fff;
+  }
+  
+  /*------------------header--------------------*/
+  .header-background {
+    background-image: url("/Assets/biology/biologyheader.png");
+  }
+  
+  .navbar {
+    background-color: rgba(60, 167, 246, 0.74);
+  }
+  
+  /*------------------main--------------------*/
+  
+  .exhibitions-text-wrapper {
+    background-color: #3CA7F6;
+  }
+  
+  .button-exhibitions {
+    background-color: #3CA7F6;
+  }
+  
+  footer {
+    background-color: #3CA7F6;
+  }

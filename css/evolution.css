@@ -6,27 +6,23 @@ body {
 
 /*------------------header--------------------*/
 .header-background {
-  background-image: url("/Assets/Airobotics/aiheader.png");
+  background-image: url("/Assets/evolution/evolutionheader.png");
 }
 
 .navbar {
-  background-color: rgba(116, 148, 167, 0.83);
+  background-color: rgba(57, 84, 102, 0.73);
 }
 
 /*------------------main--------------------*/
 
 .exhibitions-text-wrapper {
-  background-color: #99b0c3;
+  background-color: #395466;
 }
 
 .button-exhibitions {
-  background-color: #99b0c3;
-}
-
-.ai-astronaut {
-  margin-bottom: 5rem;
+  background-color: #395466;
 }
 
 footer {
-  background-color: #99b0c3;
+  background-color: #395466;
 }
