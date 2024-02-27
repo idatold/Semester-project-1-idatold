@@ -31,32 +31,32 @@
     </header>
 
     <main>
+      <section>
+        <h1 class="heading-one">Special events and activities:</h1>
+        <div class="special-events-banner">
+          <img
+            class="special-events-image"
+            src="Assets/Indexphotos/nightatthemuseumposter-min.png"
+            alt="A card with dinosaurs, stars, a moon and the text Night at the museum"
+          />
+          <div class="special-events-banner-text">
+            <h2 class="special-events-text">
+              Sleepover at the Museum: A Night of Wonder!
+            </h2>
+            <h2 class="special-events-text">
+              Get your family together for an exciting night in the museum as
+              you sleep over beside dinosaurs and science displays. Bring your
+              own sleeping bag and get ready to rough it as we go exploring the
+              wonders of science. Get your ticket to this event by using our
+              contact form.
+            </h2>
+          </div>
+        </div>
+      </section>
       <div class="index-page-content">
         <section>
-          <h1 class="heading-one">Special events and activities:</h1>
-          <div class="special-events-banner">
-            <img
-              class="special-events-image"
-              src="Assets/Indexphotos/nightatthemuseumposter-min.png"
-              alt="A card with dinosaurs, stars, a moon and the text Night at the museum"
-            />
-            <div class="special-events-banner-text">
-              <h2 class="special-events-text">
-                Sleepover at the Museum: A Night of Wonder!
-              </h2>
-              <h2 class="special-events-text">
-                Get your family together for an exciting night in the museum as
-                you sleep over beside dinosaurs and science displays. Bring your
-                own sleeping bag and get ready to rough it as we go exploring
-                the wonders of science. Get your ticket to this event by using
-                our contact form.
-              </h2>
-            </div>
-          </div>
-        </section>
-        <section>
           <div class="index-image-text-wrapper-1">
-            <h3 class="index-text">
+            <h3 class="index-text index-1">
               Explore together! Come join us at the Community Science Museum
               where we’re committed to making science accessible to all. Over
               the course of human history, science has developed from our early
@@ -65,21 +65,30 @@
               life itself.
             </h3>
             <img
-              class="index-image-1"
+              class="index-image-1 hide-on-mobile"
               src="Assets/Indexphotos/indeximage1-min.png"
               alt="An astronaut floating in an orange space with many orbs. His visor looks like it is glowing like the sun."
+            />
+            <img
+              class="show-on-mobile"
+              src="Assets/Indexphotos/indeximage1wide.png"
+              alt=""
             />
           </div>
 
           <div class="index-image-text-wrapper-2">
             <div class="index-text-wrapper-2">
-              <a class="cosmology-link" href="">Cosmology</a>
+              <a class="cosmology-link" href="/html/cosmology.html"
+                >Cosmology</a
+              >
             </div>
-            <img
-              class="index-image-2"
-              src="Assets/Indexphotos/indeximage2-min.png"
-              alt="a picture of cosmos"
-            />
+            <a href="/html/cosmology.html">
+              <img
+                class="index-image-2"
+                src="Assets/Indexphotos/indeximage2-min.png"
+                alt="a picture of cosmos"
+              />
+            </a>
           </div>
           <div class="index-3">
             <h3 class="index-text text-3">
@@ -90,13 +99,17 @@
             </h3>
             <div class="index-image-text-wrapper-2">
               <div class="index-text-wrapper-2">
-                <a class="evolution-link" href="">Evolution</a>
+                <a class="evolution-link" href="/html/evolution.html"
+                  >Evolution</a
+                >
               </div>
-              <img
-                class="index-image-3"
-                src="Assets/Indexphotos/indeximage3-min.png"
-                alt="A photo of dinosaur skeletons in an orange mist"
-              />
+              <a href="/html/evolution.html">
+                <img
+                  class="index-image-3"
+                  src="Assets/Indexphotos/indeximage3-min.png"
+                  alt="A photo of dinosaur skeletons in an orange mist"
+                />
+              </a>
             </div>
             <h3 class="index-text text-3">
               We believe science should not be confined to the textbook, but
@@ -132,47 +145,54 @@
     </main>
     <footer>
       <div class="footer-layout">
-      <img
-        class="rocket-icon center"
-        src="Assets/Footericons/rocketfooter.png"
-        alt="an icon of a rocket"
-      />
-      <div class="links-footer-wrapper-top">
-        <a class="footer-link" href="index.html">HOME</a>
-        <a class="footer-link" href="/html/explore.html">EXPLORE</a>
-        <a class="footer-link" href="/html/exhibitions.html">EXHIBITIONS</a>
-        <a class="footer-link" href="/html/contribution.html">CONTRIBUTION</a>
-      </div>
-      <img
-        class="science-icon center"
-        src="Assets/Footericons/scienceiconfooter.png"
-        alt="A science related icon. An orb with several ovals around it."
-      />
-      <a class="rocket-push" href="index.html">Push me to go up!</a>
-      <p class="connect-text">
-        Connect with us on social media where we explore every day!
-      </p>
-      <div class="links-footer-wrapper-bottom">
-        <a class="footer-link" href="/html/contact.html">CONTACT US</a>
-        <a class="footer-link" href="/html/privacyterms.html">PRIVACY POLICY</a>
-        <a class="footer-link" href="/html/privacyterms.html">TERMS AND CONDITIONS</a>
-      </div>
-      <div class="social-icons-wrapper">
         <img
-          src="Assets/Footericons/youtubeiconfooter.png"
-          alt="youtube icon"
+          class="rocket-icon center"
+          src="Assets/Footericons/rocketfooter.png"
+          alt="an icon of a rocket"
         />
+        <div class="links-footer-wrapper-top">
+          <a class="footer-link" href="index.html">HOME</a>
+          <a class="footer-link" href="/html/explore.html">EXPLORE</a>
+          <a class="footer-link" href="/html/exhibitions.html">EXHIBITIONS</a>
+          <a class="footer-link" href="/html/contribution.html">CONTRIBUTION</a>
+        </div>
         <img
-          src="Assets/Footericons/instagramiconfooter.png"
-          alt="instagram icon"
+          class="science-icon center"
+          src="Assets/Footericons/scienceiconfooter.png"
+          alt="A science related icon. An orb with several ovals around it."
         />
-        <img src="Assets/Footericons/tiktokiconfooter.png" alt="tiktok icon" />
+        <a class="rocket-push" href="index.html">Push me to go up!</a>
+        <p class="connect-text">
+          Connect with us on social media where we explore every day!
+        </p>
+        <div class="links-footer-wrapper-bottom">
+          <a class="footer-link" href="/html/contact.html">CONTACT US</a>
+          <a class="footer-link" href="/html/privacyterms.html"
+            >PRIVACY POLICY</a
+          >
+          <a class="footer-link" href="/html/privacyterms.html"
+            >TERMS AND CONDITIONS</a
+          >
+        </div>
+        <div class="social-icons-wrapper">
+          <img
+            src="Assets/Footericons/youtubeiconfooter.png"
+            alt="youtube icon"
+          />
+          <img
+            src="Assets/Footericons/instagramiconfooter.png"
+            alt="instagram icon"
+          />
+          <img
+            src="Assets/Footericons/tiktokiconfooter.png"
+            alt="tiktok icon"
+          />
+        </div>
+        <div class="all-rights-wrapper">
+          <p class="rights-text">Community Science Museum©</p>
+          <p class="rights-text">All rights reserved.</p>
+        </div>
       </div>
-      <div class="all-rights-wrapper">
-        <p class="rights-text">Community Science Museum©</p>
-        <p class="rights-text">All rights reserved.</p>
-      </div>
-    </div>
     </footer>
   </body>
 </html>

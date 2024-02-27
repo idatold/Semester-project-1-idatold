@@ -194,9 +194,117 @@
   grid-column-start: 2;
   grid-row-start: 4;
   align-self: end;
-  text-align: left;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  justify-self: center;
+}
+
+.rights-text {
+  font-family: "Oxaniumm" sans-serif;
+}
+
+@media (max-width: 1100px) {
+
+
+  /*---------------------footer-------------------------------*/
+  .footer-layout {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 4rem;
+  }
+
+  .science-icon {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .rocket-icon {
+    grid-column-start: 2;
+    grid-row-start: 5;
+  }
+  .rocket-push {
+    grid-column-start: 2;
+    grid-row-start: 6;
+  }
+
+  .links-footer-wrapper-top {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  .links-footer-wrapper-bottom {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    gap: 1.5rem;
+  }
+
+  .connect-text {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    align-self: flex-start;
+  }
+
+  .social-icons-wrapper {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    align-self: flex-end;
+  }
+
+  .all-rights-wrapper {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 650px) {
+  /*---------------------footer-------------------------------*/
+  .footer-layout {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 4rem;
+  }
+  .science-icon {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .rocket-icon {
+    grid-column-start: 2;
+    grid-row-start: 6;
+  }
+  .rocket-push {
+    grid-column-start: 2;
+    grid-row-start: 7;
+  }
+
+  .links-footer-wrapper-top {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+
+  .links-footer-wrapper-bottom {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    gap: 1.5rem;
+  }
+
+  .connect-text {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    align-self: center;
+  }
+
+  .social-icons-wrapper {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    align-self: flex-start;
+  }
+
+  .all-rights-wrapper {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    align-self: flex-end;
+  }
 }
