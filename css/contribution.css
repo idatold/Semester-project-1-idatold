@@ -28,7 +28,6 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 3%;
-  
 }
 
 .contribution-wrapper {
@@ -41,25 +40,23 @@ body {
   border-radius: 10px;
   margin-right: 3rem;
   flex-wrap: wrap;
-  
 }
 
 .image-contribution-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+}
 
+.rights-text {
+  font-family: "Oxanium", sans-serif;
 }
 
 .contribution-img {
-  
   max-width: 389px;
   max-height: 389px;
   padding: 20px;
   margin-bottom: 4em;
-    
- 
 }
 
 h2 {
@@ -83,25 +80,21 @@ footer {
   background-color: #006f7a;
 }
 
-
 /*---------------------mediaq-------------------------------*/
 
 @media (max-width: 850px) {
-  .image-contribution-wrapper, .contribution-wrapper {
+  .image-contribution-wrapper,
+  .contribution-wrapper {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-  
   }
-
-
 }
 
 @media (max-width: 450px) {
   .contribution-img {
     max-width: 289px;
-  max-height: 289px;
-    
+    max-height: 289px;
   }
 
   h2 {
@@ -111,5 +104,4 @@ footer {
   p {
     font-size: 1rem;
   }
-
 }
