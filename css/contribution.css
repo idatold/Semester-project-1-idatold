@@ -28,7 +28,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 3%;
-  flex-wrap: wrap;
+  
 }
 
 .contribution-wrapper {
@@ -40,17 +40,20 @@ body {
   margin-bottom: 6rem;
   border-radius: 10px;
   margin-right: 3rem;
+  flex-wrap: wrap;
+  
 }
 
 .image-contribution-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 
 }
 
 .contribution-img {
-  size: 90%;
+  
   max-width: 389px;
   max-height: 389px;
   padding: 20px;
@@ -78,4 +81,35 @@ p {
 
 footer {
   background-color: #006f7a;
+}
+
+
+/*---------------------mediaq-------------------------------*/
+
+@media (max-width: 850px) {
+  .image-contribution-wrapper, .contribution-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  
+  }
+
+
+}
+
+@media (max-width: 450px) {
+  .contribution-img {
+    max-width: 289px;
+  max-height: 289px;
+    
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
 }
