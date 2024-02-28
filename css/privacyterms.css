@@ -6,7 +6,7 @@ body {
 
 /*------------------header--------------------*/
 .header-background {
-  background-image: url("/assets/privacyterms/privacytermsheader.png");
+  background-image: url("../assets/privacyterms/privacytermsheader.png");
 }
 
 .navbar {
