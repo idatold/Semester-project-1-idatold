@@ -6,7 +6,7 @@ body {
 
 /*------------------header--------------------*/
 .header-background {
-  background-image: url("/assets/evolution/evolutionheader.png");
+  background-image: url("../assets/evolution/evolutionheader.png");
 }
 
 .navbar {
