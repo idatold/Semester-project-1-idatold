@@ -6,7 +6,7 @@ body {
   
   /*------------------header--------------------*/
   .header-background {
-    background-image: url("/assets/cosmology/cosmologyheader.png");
+    background-image: url("../assets/cosmology/cosmologyheader.png");
   }
   
   .navbar {
