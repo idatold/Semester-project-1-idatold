@@ -191,7 +191,7 @@
 }
 
 .all-rights-wrapper {
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-row-start: 4;
   align-self: end;
 }
@@ -256,7 +256,24 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 660px) {
+
+/*---------------------navbar-------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /*---------------------footer-------------------------------*/
   .footer-layout {
     display: grid;
