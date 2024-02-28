@@ -4,7 +4,7 @@ body {
 }
 /*------------------header--------------------*/
 .header-background {
-  background-image: url("../Assets/Exhibitions/exhibitionsheader.png");
+  background-image: url("./Assets/Exhibitions/exhibitionsheader.png");
 }
 
 .navbar {
