@@ -287,7 +287,9 @@
   }
 
   /*---------------------exhibitions-------------------------------*/
-
+  .heading-one {
+    font-size: 1.2rem;
+  }
   .exhibitions-h1 {
     font-size: 20px;
   }
