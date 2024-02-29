@@ -10,17 +10,17 @@ body {
 }
 
 .navbar {
-  background-color: rgba(116, 148, 167, 0.83);
+  background-color:  rgba(119, 137, 153, 0.83);
 }
 
 /*------------------main--------------------*/
 
 .exhibitions-text-wrapper {
-  background-color: #99b0c3;
+  background-color: #778999;
 }
 
 .button-exhibitions {
-  background-color: #99b0c3;
+  background-color: #778999;
 }
 
 .ai-astronaut {
@@ -28,7 +28,7 @@ body {
 }
 
 footer {
-  background-color: #99b0c3;
+  background-color: #778999;
 }
 
 

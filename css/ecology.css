@@ -10,20 +10,20 @@ body {
 }
 
 .navbar {
-  background-color: rgba(103, 137, 103, 0.78);
+  background-color: rgba(90, 121, 90, 0.9);
 }
 
 /*------------------main--------------------*/
 .exhibitions-text-wrapper {
-    background-color: #678967;
+    background-color: #5A795A;
 }
 
 .button-exhibitions {
-    background-color: #678967;
+    background-color: #5A795A;
 }
 
 footer {
-  background-color: #678967;
+  background-color: #5A795A;
 }
 
 

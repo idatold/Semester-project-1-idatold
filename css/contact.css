@@ -31,7 +31,6 @@ body {
   padding: 20px;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  flex-wrap: wrap;
 }
 
 .h2-common {
@@ -264,7 +263,7 @@ footer {
 }
 
 /*---------------------mediaq-------------------------------*/
-@media (max-width: 932px) {
+@media  {
   .h2-img-wrapper {
     justify-content: center;
   }
@@ -291,7 +290,8 @@ footer {
 @media (max-width: 590px) {
   input,
   textarea,
-  #submit, #form {
+  #submit,
+  #form {
     width: 270px;
     margin: auto;
   }
@@ -313,6 +313,10 @@ footer {
     padding: 20px;
     padding-top: 2rem;
     max-width: 200px;
+    flex-wrap: wrap;
+  }
+  .contact-info-wrapper {
+    display: flex;
     flex-wrap: wrap;
   }
 }
