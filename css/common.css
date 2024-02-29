@@ -59,8 +59,10 @@
 
 .nav-link:hover {
   text-decoration: underline;
-  
+  transform: scale(1.1);
 }
+
+
 
 /*-----------------------commmon main---------------------*/
 .heading-one {
