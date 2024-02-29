@@ -8,7 +8,7 @@ body {
   background-image: url("../assets/Indexphotos/indexheader-min.png");
 }
 
-.navbar {
+.navbar-home {
   background-color: rgba(252, 149, 32, 0.7);
 }
 
@@ -20,8 +20,6 @@ body {
   margin: auto;
   padding: 2rem;
 }
-
-
 
 .special-events-banner {
   display: flex;
@@ -143,13 +141,14 @@ body {
 
 .index-icons {
   max-width: 100%;
+  height: auto;
 }
 .icons-wrapper {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
 }
 
 .show-on-mobile {
@@ -174,19 +173,40 @@ footer {
 
   .index-text-image-wrapper {
     margin-bottom: 2rem;
-    
   }
 
   .index-1 {
     margin-bottom: 2rem;
     max-width: 1172px;
-
-    
-    
   }
 
   .index-icons {
     max-width: 30%;
     height: auto;
+  }
+}
+
+@media (max-width: 740px) {
+  .navbar-home {
+    margin-bottom: -7.1rem;
+  }
+}
+
+@media (max-width: 612px) {
+  .navbar-home {
+    margin-bottom: -6.2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar-home {
+    margin-bottom: -5.3rem;
+  }
+}
+
+
+@media (max-width: 332px) {
+  .navbar-home {
+    margin-bottom: -4.4rem;
   }
 }

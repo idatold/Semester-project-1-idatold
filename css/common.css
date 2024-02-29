@@ -35,7 +35,7 @@
   justify-content: center;
 }
 
-.navbar {
+.navbar, .navbar-home {
   padding: 2rem;
   justify-content: center;
   position: sticky;
@@ -52,6 +52,14 @@
   font-family: "oxanium";
   font-size: 1.5rem;
   margin: auto;
+  text-decoration: none;
+  font-weight: 700;
+
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  
 }
 
 /*-----------------------commmon main---------------------*/
@@ -268,14 +276,12 @@
   }
 
   .navbar {
-    padding: 2rem;
     justify-content: center;
-    position: sticky;
     margin-bottom: -7.1rem;
   }
 
   .nav-link {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .nav-links-wrapper {
@@ -347,5 +353,38 @@
     grid-column-start: 2;
     grid-row-start: 7;
     align-self: flex-end;
+  }
+}
+
+@media (max-width: 672px) {
+  .navbar {
+    margin-bottom: -6.1rem;
+  }
+}
+
+
+
+@media (max-width: 554px) {
+  .navbar {
+    margin-bottom: -6.3rem;
+  }
+}
+
+
+@media (max-width: 409px) {
+  .navbar {
+    margin-bottom: -5.3rem;
+  }
+}
+
+@media (max-width: 352px) {
+  .navbar {
+    margin-bottom: -4.4rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar {
+    margin-bottom: -4.4rem;
   }
 }
