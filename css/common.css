@@ -57,9 +57,9 @@
 
 }
 
-.nav-link:hover {
+.nav-link:hover, .cosmology-link:hover, .evolution-link:hover {
   text-decoration: underline;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 
