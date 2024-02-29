@@ -200,6 +200,7 @@
 
 .rights-text {
   font-family: "Oxaniumm" sans-serif;
+  font-size: 1rem;
 }
 /*---------------------mediaq-------------------------------*/
 @media (max-width: 1100px) {
