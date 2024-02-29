@@ -14,14 +14,14 @@ body {
 
 /*------------------main--------------------*/
 .heading-one {
-  background-color: rgba(192, 87, 168, 0.53);
+  background-color: #CC6AAF;
 }
 .space-wrapper {
   padding: 2rem;
 }
 .contact-info-wrapper {
   border-radius: 20px;
-  background: #e2a5d0;
+  background: #CC6AAF;
   display: flex;
   justify-content: space-between;
   color: #fff;
@@ -82,40 +82,40 @@ body {
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #c057a8;
+  color: #892271;
   font-size: 0.875em;
 }
 
 input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
-  color: #c057a8;
+  color: #892271;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #c057a8;
+  color: #892271;
   font-size: 0.875em;
 }
 
 input:focus::-moz-placeholder,
 textarea:focus::-moz-placeholder {
-  color: #c057a8;
+  color: #892271;
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: #c057a8;
+  color: #892271;
   font-size: 0.875em;
 }
 
 input:focus::placeholder,
 textarea::focus:placeholder {
-  color: #c057a8;
+  color: #892271;
 }
 
 input::-ms-placeholder,
 textarea::-ms-placeholder {
-  color: #c057a8;
+  color: #892271;
   font-size: 0.875em;
 }
 
@@ -156,7 +156,7 @@ textarea:hover::placeholder {
 
 input:hover:focus::placeholder,
 textarea:hover:focus::placeholder {
-  color: #c057a8;
+  color: #892271;
 }
 
 input:hover::placeholder,
@@ -178,7 +178,7 @@ h3 {
   font-family: "oxanium";
   max-width: 50rem;
   margin: auto;
-  color: #c057a8;
+  color: #892271;
 }
 
 #form {
@@ -190,14 +190,14 @@ h3 {
 
 input {
   font-family: "oxanium" sans-serif;
-  font-size: 0.875em;
+  font-size: 0.975em;
   max-width: 470px;
   height: 50px;
   padding: 0px 15px 0px 15px;
   background: transparent;
   outline: none;
-  color: #c057a8;
-  border: solid 1px #c057a8;
+  color: #892271;
+  border: solid 1px #892271;
   border-bottom: none;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -216,10 +216,10 @@ textarea {
   padding: 15px;
   background: transparent;
   outline: none;
-  color: #c057a8;
+  color: #892271;
   font-family: "oxanium", sans-serif;
-  font-size: 0.875em;
-  border: solid 1px #c057a8;
+  font-size: 0.975em;
+  border: solid 1px #892271;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -233,18 +233,14 @@ textarea:hover {
 
 #submit {
   width: 470px;
-
   padding: 0;
   margin: -5px 0px 0px 0px;
-
   font-family: "oxanium", sans-serif;
-  font-size: 0.875em;
-  color: #c057a8;
-
+  font-size: 0.975em;
+  color: 892271;
   outline: none;
   cursor: pointer;
-
-  border: solid 1px #c057a8;
+  border: solid 1px #892271;
   border-top: none;
 }
 
@@ -259,7 +255,7 @@ textarea:hover {
 }
 
 footer {
-  background-color: rgba(192, 87, 168, 0.53);
+  background-color: #CC6AAF;
 }
 
 /*---------------------mediaq-------------------------------*/
