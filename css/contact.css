@@ -263,7 +263,7 @@ footer {
 }
 
 /*---------------------mediaq-------------------------------*/
-@media  {
+@media (max-width: 999px)  {
   .h2-img-wrapper {
     justify-content: center;
   }
