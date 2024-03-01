@@ -57,7 +57,7 @@
 
 }
 
-.nav-link:hover, .cosmology-link:hover, .evolution-link:hover, .footer-link:hover, .rocket-push:hover {
+.nav-link:hover, .cosmology-link:hover, .evolution-link:hover, .footer-link:hover, .rocket-push:hover, .button-exhibitions:hover {
   text-decoration: underline;
   transform: scale(1.05);
 }
