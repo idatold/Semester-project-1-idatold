@@ -74,9 +74,11 @@ img {
 }
 
 .kids-icons-wrapper {
+  display: flex;
   flex-direction: row;
   padding: 2rem;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .kids-image-wrapper {
@@ -114,7 +116,20 @@ footer {
     margin-bottom: 2rem;
   }
 }
-/*---------------------media-------------------------------*/
+
+
+@media (max-width:991px) {
+  .kids-icons-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
 @media (max-width: 600px) {
   .mobile-font, h2 {
     font-size: 20px;
