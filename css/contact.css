@@ -14,14 +14,14 @@ body {
 
 /*------------------main--------------------*/
 .heading-one {
-  background-color: #CC6AAF;
+  background-color: #cc6aaf;
 }
 .space-wrapper {
   padding: 2rem;
 }
 .contact-info-wrapper {
   border-radius: 20px;
-  background: #CC6AAF;
+  background: #cc6aaf;
   display: flex;
   justify-content: space-between;
   color: #fff;
@@ -255,7 +255,7 @@ textarea:hover {
 }
 
 footer {
-  background-color: #CC6AAF;
+  background-color: #cc6aaf;
 }
 
 /*---------------------mediaq-------------------------------*/

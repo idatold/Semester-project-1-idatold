@@ -1,28 +1,28 @@
 body {
-    background-color: #d9d9d9;
-    font-family: "Oxanium", "sans-serif";
-    color: #fff;
-  }
-  
-  /*------------------header--------------------*/
-  .header-background {
-    background-image: url("../assets/biology/biologyheader.png");
-  }
-  
-  .navbar {
-    background-color:  rgba(18, 135, 221, 0.74);
-  }
-  
-  /*------------------main--------------------*/
-  
-  .exhibitions-text-wrapper {
-    background-color: #1287DD;
-  }
-  
-  .button-exhibitions {
-    background-color: #1287DD;
-  }
-  
-  footer {
-    background-color: #1287DD;
-  }
+  background-color: #d9d9d9;
+  font-family: "Oxanium", "sans-serif";
+  color: #fff;
+}
+
+/*------------------header--------------------*/
+.header-background {
+  background-image: url("../assets/biology/biologyheader.png");
+}
+
+.navbar {
+  background-color: rgba(18, 135, 221, 0.74);
+}
+
+/*------------------main--------------------*/
+
+.exhibitions-text-wrapper {
+  background-color: #1287dd;
+}
+
+.button-exhibitions {
+  background-color: #1287dd;
+}
+
+footer {
+  background-color: #1287dd;
+}

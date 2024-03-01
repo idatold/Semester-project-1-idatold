@@ -35,7 +35,8 @@
   justify-content: center;
 }
 
-.navbar, .navbar-home {
+.navbar,
+.navbar-home {
   padding: 2rem;
   justify-content: center;
   position: sticky;
@@ -54,23 +55,25 @@
   margin: auto;
   text-decoration: none;
   font-weight: 700;
-
 }
 
-.nav-link:hover, .cosmology-link:hover, .evolution-link:hover, .footer-link:hover, .rocket-push:hover, .button-exhibitions:hover {
+.nav-link:hover,
+.cosmology-link:hover,
+.evolution-link:hover,
+.footer-link:hover,
+.rocket-push:hover,
+.button-exhibitions:hover {
   text-decoration: underline;
   transform: scale(1.05);
 }
 
-.hover-effect img:hover{
+.hover-effect img:hover {
   transform: scale(1.02);
 }
 
-.hover-effect img{
+.hover-effect img {
   transition: transform 0.3s ease;
 }
-
-
 
 /*-----------------------commmon main---------------------*/
 .heading-one {
@@ -189,7 +192,6 @@
   grid-column-start: 2;
   color: #fff;
   text-decoration: none;
-  
 }
 
 .connect-text {
@@ -213,7 +215,6 @@
   flex-direction: row;
   display: flex;
   justify-content: center;
-  
 }
 
 .icons-footer {
@@ -250,7 +251,8 @@
     grid-row-gap: 4rem;
   }
 
-  .science-icon, .hover-effect {
+  .science-icon,
+  .hover-effect {
     grid-column-start: 2;
     grid-row-start: 1;
   }
@@ -387,14 +389,11 @@
   }
 }
 
-
-
 @media (max-width: 554px) {
   .navbar {
     margin-bottom: -6.3rem;
   }
 }
-
 
 @media (max-width: 409px) {
   .navbar {

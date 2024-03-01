@@ -28,13 +28,11 @@ body {
   margin-bottom: 4rem;
 }
 
-
-h2, p, h3{
-    padding: 1rem;
+h2,
+p,
+h3 {
+  padding: 1rem;
 }
-
-
-
 
 footer {
   background-color: #3b2232;
