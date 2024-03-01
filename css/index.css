@@ -152,6 +152,7 @@ body {
 .index-icons {
   max-width: 100%;
   height: auto;
+  padding: 1rem;
 }
 .icons-wrapper {
   display: flex;
