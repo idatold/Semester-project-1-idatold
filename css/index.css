@@ -34,12 +34,22 @@ body {
   flex-wrap: wrap;
   max-width: 100%;
   padding: 1rem;
+  max-height: 514px;
 }
 
 .special-events-text {
   padding: 1rem;
   color: #fff;
   max-width: 600px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 1.4rem;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 .special-events-banner-text {
@@ -195,6 +205,20 @@ footer {
 @media (max-width: 612px) {
   .navbar-home {
     margin-bottom: -6.2rem;
+  }
+  .special-events-text {
+    padding: 1rem;
+    color: #fff;
+    max-width: 600px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 1.3rem;
+  }
+
+  .bold {
+    font-weight: 700;
+    font-size: 1.5rem;
   }
 }
 

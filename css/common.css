@@ -57,9 +57,17 @@
 
 }
 
-.nav-link:hover, .cosmology-link:hover, .evolution-link:hover {
+.nav-link:hover, .cosmology-link:hover, .evolution-link:hover, .footer-link:hover, .rocket-push:hover {
   text-decoration: underline;
   transform: scale(1.05);
+}
+
+.hover-effect img:hover{
+  transform: scale(1.02);
+}
+
+.hover-effect img{
+  transition: transform 0.3s ease;
 }
 
 
@@ -160,6 +168,7 @@
 }
 .footer-link {
   color: #fff;
+  text-decoration: none;
 }
 
 .links-footer-wrapper-top {
@@ -179,6 +188,7 @@
 .rocket-push {
   grid-column-start: 2;
   color: #fff;
+  text-decoration: none;
 }
 
 .connect-text {
@@ -199,6 +209,11 @@
 .social-icons-wrapper {
   grid-column-start: 3;
   grid-row-start: 3;
+  
+}
+
+.icons-footer {
+  padding: 5px;
 }
 
 .all-rights-wrapper {
@@ -227,7 +242,7 @@
     grid-row-gap: 4rem;
   }
 
-  .science-icon {
+  .science-icon, .hover-effect {
     grid-column-start: 2;
     grid-row-start: 1;
   }
