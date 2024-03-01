@@ -209,11 +209,18 @@
 .social-icons-wrapper {
   grid-column-start: 3;
   grid-row-start: 3;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
   
 }
 
 .icons-footer {
   padding: 5px;
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 .all-rights-wrapper {
