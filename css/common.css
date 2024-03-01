@@ -192,7 +192,10 @@
   grid-column-start: 2;
   color: #fff;
   text-decoration: none;
+  
 }
+
+:root { scroll-behavior: smooth; }
 
 .connect-text {
   text-align: center;
